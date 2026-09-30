@@ -1,0 +1,13 @@
+:root {
+  --paper: #EEF0EC;
+  --paper-raised: #FFFFFF;
+  --ink: #1C231F;
+  --ink-soft: #4A544C;
+  --rule: #D3D8CE;
+  --accent: #4F5F87;
+  --accent-soft: #E4E7F0;
+
+  --font-display: 'Source Serif 4', Georgia, serif;
+  --font-body: 'IBM Plex Sans', -apple-system, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Courier New', monospace;
+}

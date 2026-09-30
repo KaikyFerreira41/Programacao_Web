@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page Simples</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assest/style.css">
+  <link rel="stylesheet" href="/assest/roots.css">
+</head>
+<body>
+  
+  <header class="site-header">
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre-autor">Sobre o autor</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <article>
+      <header class="article-header">
+        <h1>O Inicio de tudo</h1>
+        <p class="article-lead">
+          Antes de qualquer curso ou tutorial, a primeira lógica que escrevi
+          foi pra desbloquear coisa em jogos ex: Em <strong>Shadow Fight 2</strong>, reescrevi linhas de código para deixar todos os recursos do jogo infinito
+        </p>
+      </header>
+
+      <figure>
+        <img
+          src="https://images.unsplash.com/photo-1550439062-609e1531270e?w=1200&q=80"
+          alt="Tela de código-fonte com várias linhas de script coloridas por sintaxe"
+          loading="lazy"
+        >
+        <figcaption>Era um simples jogo de luta 2D para mobile, mas no qual eu adorava jogar.</figcaption>
+      </figure>
+
+      <section>
+        <h2>O problema não era o jogo</h2>
+        <p>
+          Todo mundo que já jogou algo repetitivo conhece a vontade de
+          automatizar ou deixar o processo mais fácil. No meu caso, isso significou abrir arquivos de configuração do jogo com apenas alguns tutorial explicando o que cada linha fazia, pois naquela época não tinha a IA tão avançada para me ajudar. Eu precisava entender o que cada linha do arquivo fazia, com isso foi surgindo a curiosidade cada vez mais sobre programação.
+        </p>
+        <p>
+          Foi ali, sem perceber, que aprendi os primeiros conceitos que hoje
+          tem nome: condicionais, loops, variáveis, objetos, listas e por ai vai. Hoje já entendo melhor o que cada linhas faz graças a minha curiosidade fui atrás de buscar conhecimento.
+        </p>
+      </section>
+
+      <section>
+        <h2>Da automação de jogos ao backend</h2>
+        <p>
+          Outro jogo que todos devem conhecer é o<strong> Minecraft</strong>. Um jogo de sandbox aonde tudo pode se tornar realidade, inclusive as <strong>Farms</strong>, farms são algo que você constroi para pegar um recurso para você automaticamente sem muito esforço, em um mundo aonde tem exploração, construção e uma aventura muito boa o que mais me chamou a atenção foram as automações.
+        </p>
+
+        <blockquote>
+          <p>
+            Programar não é decorar sintaxe. É entender o problema bem o
+            suficiente pra saber qual pergunta fazer ao código.
+          </p>
+        </blockquote>
+
+        <p>
+          Isso fica claro quando comparo os dois mundos lado a lado:
+        </p>
+
+        <table>
+          <caption>Automação de jogos vs. Desenvolvimento backend</caption>
+          <thead>
+            <tr>
+              <th scope="col">Automação/Farms em jogos</th>
+              <th scope="col">Desenvolvimento backend</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Evento no jogo dispara uma ação</td>
+              <td>Requisição HTTP dispara uma rota</td>
+            </tr>
+            <tr>
+              <td>Estado do personagem (vida, inventário)</td>
+              <td>Estado da aplicação (sessão, banco de dados)</td>
+            </tr>
+            <tr>
+              <td>Testar até não quebrar</td>
+              <td><code>try / except</code> tratando o que pode falhar</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>O que fica dessa forma de aprender</h2>
+        <p>
+          Cursos e tutoriais continuam sendo importantes — eles dão o
+          vocabulário certo pra nomear o que a prática já tinha ensinado.
+          Mas o que vai fazer você realmente aprender é a vontade de abrir o "código" e entender o código em si e mudar ou criar uma linha de código para algo que você realmente queira.
+        </p>
+      </section>
+
+      <footer class="article-footer">
+        <p>Tags:
+          <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Python" target="_blank">Python</a>
+          ,<a href="https://pt.wikipedia.org/wiki/Front-end_e_back-end" target="_blank">Front-end e Back-end</a>
+          ,<a href="https://pt.wikipedia.org/wiki/Jogo_eletr%C3%B4nico" target="_blank">Jogo Eletrônicos</a>
+          ,<a href="https://pt.wikipedia.org/wiki/Minecraft" target="_blank">Minecraft</a>
+          ,<a href="https://pt.wikipedia.org/wiki/Shadow_Fight" target="_blank">Shadow Fight 2</a>.
+        </p>
+      </footer>
+    </article>
+
+  </main>
+
+  <footer class="site-footer" id="sobre-autor">
+    <section>
+      <h2>Sobre o autor</h2>
+      <p>
+        Estudante de Engenharia de Software, em transição para
+        desenvolvimento backend com foco em Python e automação.
+      </p>
+    </section>
+    <address id="contato">
+      Contato: <a href="https://www.linkedin.com/in/kaiky-ferreira-dourado-dos-santos/" target="_blank">Linkedin</a>
+    </address>
+    <p class="copyright">&copy; 2026 Notas de código. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
